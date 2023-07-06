@@ -91,6 +91,28 @@ export default function Form() {
             id="Email-Address"
             placeholder="Enter Your Email Address"
           />
+
+          
+<label for="password" class="form-label">
+            Password
+          </label>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            placeholder="Enter Your Password"
+          />
+
+
+          <label for="Email-Address" class="form-label">
+            Email Address
+          </label>
+          <input
+            type="number"
+            class="form-control"
+            id="Email-Address"
+            placeholder="Enter Your Email Address"
+          />
         </div>
       </div>
     </div>
