@@ -124,8 +124,19 @@ export default function Form() {
             id="Email-Address"
             placeholder="Enter Your Email Address"
           />
+         
           
-          <label for="Email-Address" class="form-label">
+         <label for="Email-Address" class="form-label">
+            Email Address
+          </label>
+          <input
+            type="number"
+            class="form-control"
+            id="Email-Address"
+            placeholder="Enter Your Email Address"
+          />
+           
+           <label for="Email-Address" class="form-label">
             Email Address
           </label>
           <input
