@@ -1,8 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Form from "./form/Form";
 import axios from "axios";
 import { useEffect, useState } from "react";
+import Card from "./Card";
 
 function App() {
   const [posts, setposts] = useState();
@@ -18,10 +18,13 @@ function App() {
     fetchPosts();
   }, []);
 
-
   return (
     <div>
       <Form />
+
+      <Card name={"rajan"} desc="dhhhdhdhhdhdhd" />
+      <Card name={"loki"} desc="112334844575" />
+      <Card name={"binod"} desc="6666666666666" />
 
       {/* {posts && (
         <div class="wrapper">
@@ -37,7 +40,7 @@ function App() {
 
       {posts &&
         posts.map((post) => (
-          <div  class="wrapper">
+          <div class="wrapper">
             <div class="card text-center">
               <div class="card-header">{post.id}</div>
               <div class="card-body">

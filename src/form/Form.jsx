@@ -55,6 +55,30 @@ export default function Form() {
               id="number"
               placeholder="Enter Your Number"
             />
+
+            
+
+<label for="password" class="form-label">
+              Number
+            </label>
+            <input
+              type="number"
+              class="form-control"
+              id="number"
+              placeholder="Enter Your Number"
+            />
+
+            
+
+<label for="password" class="form-label">
+              Number
+            </label>
+            <input
+              type="number"
+              class="form-control"
+              id="number"
+              placeholder="Enter Your Number"
+            />
           </div>
         </div>
       )}
